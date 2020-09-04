@@ -1,0 +1,287 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+/*=====================================*/
+/*           BACKGROUND   IMAGE        */
+/*=====================================*/
+
+.bgImage {
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+}
+
+
+@media (max-width: 900px) {
+    .bgImage {
+        /*padding-le*/
+        /*ft: 500px;
+		padding-right: 500px;*/
+        background-position: 80% 60%;
+    }
+}
+
+
+/*=====================================*/
+/*           BG IMAGE TEXT             */
+/*=====================================*/
+
+.position-text-on-image {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.position-button-on-image {
+    position: absolute;
+    top: 57%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+/*
+.textHomePage{
+}
+*/
+
+.banner_btn {
+  padding: 0px 45px;
+  line-height: 50px;
+  background: #3ee800;
+  color: #222222;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  -webkit-transition: all 300ms linear 0s;
+  -o-transition: all 300ms linear 0s;
+  transition: all 300ms linear 0s;
+}
+
+
+
+.generic-banner .generic-banner-content h2 {
+  line-height: 1.2em;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .generic-banner .generic-banner-content h2 br {
+    display: none;
+  }
+}
+
+.generic-banner .generic-banner-content p {
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (max-width: 991.98px) {
+  .generic-banner .generic-banner-content p br {
+    display: none;
+  }
+}
+
+
+.home_banner_area {
+  z-index: 1;
+  background-size: cover;
+}
+
+.home_banner_area .banner_inner {
+  overflow: hidden;
+  width: 100%;
+  padding: 170px 0px 140px 0px;
+}
+
+.home_banner_area .banner_inner .banner_content {
+  color: black;
+}
+
+.home_banner_area .banner_inner .banner_content .col-lg-9 {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.home_banner_area .banner_inner .banner_content h2 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 15px;
+  margin-top: -30px;
+}
+
+.home_banner_area .banner_inner .banner_content p {
+  color: black;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  max-width: 450px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.home_banner_area .banner_inner .banner_content .banner_map_img {
+  text-align: right;
+}
+
+
+
+/*===========================================*/
+/*DONT FUNCKING MESS WITH THE ABOVE CODE*/
+/*===========================================*/
+
+
+
+/*=====================================*/
+/*           NAVBAR                    */
+/*=====================================*/
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    /*z-index: 1;*/
+}
+
+.page-top-navbar {
+    background-color: rgba(255, 255, 255, 0);
+    /*z-index: 1;*/
+}
+
+.opaque-navbar {
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+
+
+/*=============================================*/
+
+
+.loginHeading{
+    color: #3ee800;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+
+
+/*=============================================*/
+
+
+/*=====================================*/
+/*           FOOTER                    */
+/*=====================================*/
+
+
+footer {
+    padding-left: 80px;
+    padding-right: 70px;
+    padding-top: 72px;
+    padding-bottom: 20px;
+    background-color: #000;
+    color: #848484;
+    font-size: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Noto Sans HK', sans-serif;
+    letter-spacing: .18em;
+}
+
+/*
+.add-bottom-margin{
+	margin-bottom: 65px;
+}
+*/
+
+.footer-top-row {
+    margin-bottom: 35px;
+}
+
+.footer-headings {
+    color: white;
+}
+
+.footer-social-links {
+    font-size: 20px
+}
+
+@media screen and (max-width: 900px) {
+    .quick-links {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 901px) {}
+
+a {
+    color: #848484;
+}
+
+a:active {
+    color: white;
+}
+
+form {
+    margin: 0 0 20px;
+}
+
+.input-form-home {
+    background-color: black;
+    border: 2px solid #848484;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .input-form-home {
+        background-color: black;
+        border: 2px solid #999;
+        width: 100%;
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /*make all the tags center aligned*/
+    .footer-align-content {
+        text-align: center;
+    }
+
+    .footer-social-links {
+        font-size: 15px
+    }
+
+    .footer-headings {
+        padding-top: 20px;
+    }
+}
+
+
+#editor-container {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.editBar {
+    width: 80%;
+}
+
+.titleInput {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+} 
